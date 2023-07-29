@@ -1,0 +1,125 @@
+.head, .footer {
+    display: flex;
+    justify-content: center ;
+    background-image: url(../img/header-back.jpg);
+    background-position: center;
+    background-size: cover;
+    background-color: aqua;
+    height: 200px;
+    margin: 15px;
+}
+
+.logo {
+    font-size: 50px;
+    line-height: 200px;
+    margin: 0;
+    color: white;
+}
+
+.container  {
+    margin: 15px;
+    display: flex;
+    justify-content: space-between ;
+}
+
+.content {
+    background-color: rgb(19, 72, 105);
+    width: 68%;
+}
+
+.aside {
+    background-color: rgb(19, 72, 105);
+    width: 30%;
+}
+
+.card {
+    margin: 15px
+}
+
+.card:hover {
+    border: solid 2px black;
+}
+
+.card-title-text {
+    font-size: 50px;
+    color:aliceblue
+}
+
+.card-title {
+    background-color: rgb(23, 176, 179);
+    display:flex;
+    align-items: center;
+    padding: 15px;
+}
+
+.card-body {
+    background-color: rgb(15, 111, 112);
+    padding: 15px;
+}
+
+.aside-card .card-title {
+padding: 5px;
+padding-left: 15px;
+}
+
+.aside-card .card-title-text {
+    font-size: 35px;
+}
+
+.image {
+    margin: 0 auto;
+    background-color: lightgray;
+    width: 80%;
+    height: 200px;
+}
+
+.fa-brands {
+    margin-left: 15px;
+    font-size: 30px;
+}
+
+.card-image {
+    height: 200px;
+}
+
+.modalDialog {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: none;
+}
+
+.modalDialog:target {
+    display: block;
+}
+
+.modalDialog>div {
+    width: 200px;
+    position: relative;
+    margin: 10% auto;
+    padding: 5px 20px 13px 20px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.close {
+    background-color: gray;
+    color: white;
+    line-height: 25px;
+    position: absolute;
+    right: -12px;
+    top: -10px;
+    text-align: center;
+    width: 24px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 12px;
+    box-shadow: 1px 1px 3px #000;
+}
+
+.close:hover {
+    background: #fed138;
+}
